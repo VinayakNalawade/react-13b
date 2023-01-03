@@ -1,0 +1,54 @@
+.mainContainer {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: transparent;
+}
+
+.inputContainer {
+  padding: 10px;
+  box-shadow: 2px 2px 3px #1e293b;
+  width: 60%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #1e293b;
+}
+
+.input {
+  font-size: 17px;
+  width: 50px;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.searchIcon {
+  width: 30px;
+  padding: 5px;
+}
+
+.tabContainer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  max-width: 500px;
+}
+
+.appsContainer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
